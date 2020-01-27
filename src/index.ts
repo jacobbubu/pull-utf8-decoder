@@ -1,5 +1,5 @@
 import { StringDecoder as Decode } from 'string_decoder'
-import { Source, Through, EndOrError, Abort, SourceCallback } from 'pull-stream'
+import { Through, EndOrError, Abort, SourceCallback } from 'pull-stream'
 
 type InType = Buffer
 type OutType = String
